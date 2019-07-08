@@ -4,7 +4,7 @@ const Button = (props) => {
 	let {clickHandler} = props;
 	return (
 		<button type="button" className="button" onClick={clickHandler}>
-			Enviar
+			Ok
 		</button>
 	)
 }
